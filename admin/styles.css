@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+}
+
+/* Centered Form Container */
+.centered-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* CSS for styling the placeholder text */
+.form-control::placeholder {
+  color: #999; /* Change the color to your desired color */
+  font-size: 14px; /* Change the font size to your desired size */
+  font-style: italic; /* Change the font style to your desired style */
+}
+
+
+/* Centered Form Container */
+.centered-form-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Set your background color here */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Logo Image Styles */
+.logo-img img {
+    max-width: 180px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Text Center Styles */
+.text-center {
+    text-align: center;
+}
+
+/* Form Input Styles */
+.form-control {
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+}
+
+/* Form Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Set your button background color here */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+/* Alert Styles */
+.alert-danger {
+    background-color: #f8d7da; /* Set alert background color */
+    color: #721c24; /* Set alert text color */
+    border-color: #f5c6cb; /* Set alert border color */
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+   .container.text-center.mt-4 ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .container.text-center.mt-4 ul li {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .container.text-center.mt-4 h4 {
+        margin-bottom: 10px;
+    }
+/* Customize any additional styles as needed */
+
